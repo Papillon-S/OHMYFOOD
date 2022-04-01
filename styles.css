@@ -9,4 +9,6 @@ body{
 header{
     font-family: 'Shrikhand', cursif; 
     text-align: center;
+    box-shadow:0 3px 3px 1px lightgrey;
+    padding:4px;
 }
