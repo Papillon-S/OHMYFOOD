@@ -32,19 +32,21 @@ main .city i{
 .exploration{
     text-align: center;
 }
-.exploration h2{
+.reservez-menu, h2{
     margin-top: 20px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     
 }
-.exploration p{
-    font-size: 10px;
+.decouverte-resto p{
+    font-size: 14px;
 }
-.exploration button{
+.explore-bouton{
     background-image: linear-gradient(#ff79da, #9356dc);
     border-radius: 32px;
-    box-shadow: 1px 1px 16px 2px rgba (66,59,59,0.76);
+    box-shadow: 1px 1px 16px 2px rgba (115,110,110,0.76);
+    -webkit-box-shadow: 1px 1px 16px 2px rgba(115,110,110,0.76);
+    -moz-box-shadow: 1px 1px 16px 2px rgba(143, 138, 138, 0.76);
     width: 45%;
     height:30px;
     border: none;
