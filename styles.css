@@ -15,6 +15,9 @@ header{
     margin: 0;
     position: relative;
 }
+main{
+    padding: 0 16px;
+}
 main .ville{
     display: flex;
     gap: 16px;
@@ -31,15 +34,16 @@ main .city i{
 
 .exploration{
     text-align: center;
+    
 }
-.reservez-menu, h2{
+.reservez-menu h2{
     margin-top: 20px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     
 }
 .decouverte-resto p{
-    font-size: 14px;
+    font-size: 20px;
 }
 .explore-bouton{
     background-image: linear-gradient(#ff79da, #9356dc);
@@ -47,8 +51,56 @@ main .city i{
     box-shadow: 1px 1px 16px 2px rgba (115,110,110,0.76);
     -webkit-box-shadow: 1px 1px 16px 2px rgba(115,110,110,0.76);
     -moz-box-shadow: 1px 1px 16px 2px rgba(143, 138, 138, 0.76);
-    width: 45%;
+    width: 35%;
     height:30px;
+    margin-top:16px;
     border: none;
-    color: white;   
+    color: white;  
+    transition: transform 200ms; 
+}
+.explore-bouton:hover{
+    transform: scale(1.02);
+    opacity: 0.9;
+}
+.section-accueil h2{
+    text-align:left;
+    margin-top: 36px;
+    font-size:xx-large;
+}
+.tuto h3:hover{
+    transform: scale(1.02);
+}
+.carte1, .carte2, .carte3{
+    background-color: #00000000;
+    padding-top: 15px;
+    margin-top: 16px;
+    box-shadow: 4px 4px 2px lightgrey;
+    border-radius: 20px 20px;
+    text-align:justify;
+    height: 50px;
+    line-height: 16px;
+}
+.icone .fa-mobile-alt, .fa-list-ul{
+    color:darkgrey;
+    margin-left:10%;
+    margin-right:10%;
+}
+.icone-couleur .fas {
+    color:#9356dc;
+    margin-right: 10%;
+    margin-left:10%;
+}
+.numero{
+    background: #9356dc;
+    color: white;
+    width: 6%;
+    height: 25px;
+    border-radius: 50px;
+    position: absolute;
+    margin-left:-8px;
+    padding:6px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    font-size:16px;
 }
