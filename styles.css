@@ -27,7 +27,7 @@ main .ville{
     padding: 8px;
     align-items: center;
 }
-main .city i{
+main .ville i{
     font-size: 16px;
 }
 /* EXPLORER */
@@ -36,9 +36,11 @@ main .city i{
     text-align: center;
     
 }
+h1{
+    margin-left: 5%;
+}
 .reservez-menu, h2{
     margin-top: 20px;
-    font-size: 16px;
     font-weight: bold;
     
 }
@@ -113,4 +115,25 @@ main .city i{
     flex-direction: row;
     justify-content: space-evenly;
 }
+.resto-img{
+    height: 192px;
+    width: 100%;
+    border: 0 solid transparent;
+    border-radius: 16px 16px 0 0;
+    box-shadow: none;
+    object-fit: cover;
+}
+.tag{
+    background-color: #99e2d0;
+    color: #1b6150;
+    padding: .5rem;
+    border-radius: .125rem;
+    position: absolute;
+    top: 1rem;
+    right: .75rem; 
+}
+h2{
+    margin-left: 50px;
+}
+
 
