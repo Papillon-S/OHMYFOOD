@@ -16,7 +16,7 @@ header{
     position: relative;
 }
 main{
-    padding: 0 16px;
+    padding: 0;
 }
 main .ville{
     display: flex;
@@ -36,49 +36,50 @@ main .city i{
     text-align: center;
     
 }
-.reservez-menu h2{
+.reservez-menu, h2{
     margin-top: 20px;
     font-size: 16px;
     font-weight: bold;
     
 }
-.decouverte-resto p{
+.decouverte-resto, p{
     font-size: 20px;
 }
 .explore-bouton{
     background-image: linear-gradient(#ff79da, #9356dc);
     border-radius: 32px;
-    box-shadow: 1px 1px 16px 2px rgba (115,110,110,0.76);
-    -webkit-box-shadow: 1px 1px 16px 2px rgba(115,110,110,0.76);
-    -moz-box-shadow: 1px 1px 16px 2px rgba(143, 138, 138, 0.76);
-    width: 35%;
-    height:30px;
-    margin-top:16px;
+    width: 15%;
+    height: 40px;
+    margin-top: 16px;
     border: none;
-    color: white;  
-    transition: transform 200ms; 
+    color: white;
+    transition: transform 200ms;
+    font-size: 16px;
+    font-weight: bold;
 }
 .explore-bouton:hover{
     transform: scale(1.02);
     opacity: 0.9;
 }
 .section-accueil h2{
-    text-align:left;
+    text-align: left;
     margin-top: 36px;
-    font-size:xx-large;
+    font-size: xx-large;
+    margin-left: 13%;
 }
 .tuto h3:hover{
     transform: scale(1.02);
 }
 .carte1, .carte2, .carte3{
-    background-color: #00000000;
-    padding-top: 15px;
-    margin-top: 16px;
-    box-shadow: 4px 4px 2px lightgrey;
-    border-radius: 20px 20px;
-    text-align:justify;
-    height: 50px;
-    line-height: 16px;
+    padding: 20px;
+    margin: 16px 0 16px 10px;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
+    border-radius: 20px;
+    background-color: #f6f6f6;
+    display: flex;
+    position: relative;
+    width: 25%;
+    height: 60px;
 }
 .icone .fa-mobile-alt, .fa-list-ul{
     color:darkgrey;
@@ -95,12 +96,21 @@ main .city i{
     color: white;
     width: 6%;
     height: 25px;
-    border-radius: 50px;
+    border-radius: 100%;
     position: absolute;
-    margin-left:-8px;
-    padding:6px;
+    margin-left: -40px;
+    padding: 6px;
     display: flex;
-    align-items:center;
-    justify-content:center;
-    font-size:16px;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
 }
+.liste-grille{
+    padding: 1.5rem;
+    margin: 1rem 0 1rem .75rem;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
