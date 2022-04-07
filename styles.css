@@ -115,13 +115,14 @@ h1{
     flex-direction: row;
     justify-content: space-evenly;
 }
+.selection-restaurant{
+    display:flex;
+}
 .resto-img{
-    height: 192px;
+    height: 200px;
     width: 100%;
-    border: 0 solid transparent;
-    border-radius: 16px 16px 0 0;
-    box-shadow: none;
     object-fit: cover;
+    align-items: center;
 }
 .tag{
     background-color: #99e2d0;
@@ -135,5 +136,10 @@ h1{
 h2{
     margin-left: 50px;
 }
-
+.conteneur-footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
