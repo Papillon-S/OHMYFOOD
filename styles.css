@@ -20,7 +20,7 @@ main{
 main .ville{
     display: flex;
     gap: 16px;
-    background-color: rgba(211, 211, 211, 0.97);
+    background-color: #f3f3f3;
     text-align: center;
     justify-content: center;
     padding: 8px;
@@ -129,6 +129,7 @@ h1{
     display:grid;
     grid-template-columns: 1fr 1fr;
     gap: 48px;
+    padding: 32px;
 }
 .cartes{
     
@@ -197,11 +198,12 @@ i{
     text-align: center; 
     }
     footer{
-        padding: 1rem;
+        padding: 16px 0 16px 0;
+        margin: 2px 0;
         background: #383838;
         display: flex;
         flex-direction: column;
-        text-align:left;
+        text-align: left;
     }
     .logo{
         
