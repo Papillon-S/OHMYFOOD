@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>OhMyFood</title>
    <script src="https://kit.fontawesome.com/c637f4814a.js" crossorigin="anonymous"></script>
-   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="css/styles.css">
+   
 </head>
 
 <body>
+	<div class="loader"></div>
 <header>
    <h1>OhMyFood</h1>
 </header>
@@ -42,7 +43,7 @@
 			</article>
 			<article class="carte3">
 				<div class="numero">3</div>
-				<span class="icone-couleur"><i class="fas fa-store"></i>Dégustez au restaurant</span>
+				<span class="icone-couleur"><i class="fas fa-store"></i><p>Dégustez au restaurant</p></span>
 			</article>
 		</div>
 
@@ -52,7 +53,7 @@
 	<section class="menus">
 		<h2>Restaurants</h2>
 		<div class="menus-cartes">
-		<a href="#" class="cartes">
+		<a href="menu-la-palette-du-gout.html" class="cartes">
 			<div class="cartes-img"><img src="img/Restaurants/La palette du gout.jpg" alt="La palette du gout"/></div>
 			<span class="info-carte">Nouveau</span>
 			<div class="cartes-description">
@@ -87,27 +88,19 @@
 			</div>
 		</a>
 	</div>
-
-	<!-- PIEP DE PAGE -->
-
-	<footer>
-        <p class="logo">ohmyfood</p>
-        <ul>
-            <li>
-                <a href=""><i class="fas fa-utensils"></i>Proposer un restaurant</a>
-            </li>
-            <li>
-                <a href=""><i class="fas fa-hands-helping"></i>Devenir partenaire</a>
-            </li>
-            <li>
-                <a href="">Mentions légales</a>
-            </li>
-            <li>
-                <a href="mailto:contact@ohmyfood.fr">Contact</a>
-            </li>
-        </ul>
-    </footer>
-	</section>				
-</body>
 </main>
+	<!-- PIED DE PAGE -->
+	<footer>
+		<h3 class="footer-logo">ohmyfood</h3>
+		<ul>
+			<li><i class="icon fas fa-utensils"></i><a href="#/"><span>Proposer un restaurant</span></a></li>
+			<li><i class="icon fas fa-hands-helping"></i><a href="#/"><span>Devenir Partenaire</span></a></li>
+			<li><a href="#/"><span>Mentions légales</span></a></li>
+			<li><a href="mailto:contact@ohmyfood.fr"><span>Contact</span></a></li>
+		</ul>
+	</footer>
+	
+				
+</body>
+
 </html>
