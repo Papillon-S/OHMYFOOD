@@ -275,7 +275,6 @@ h3{
     flex-wrap: wrap;
     align-content: center;
     align-items: flex-end;
-    background-color: white;
     /* border-radius: 1.25rem; */
     height: 38%;
     margin-top: -1%;
@@ -285,6 +284,12 @@ li .fas{
     margin-bottom: -35px;
     margin-top: -15px;
     font-size: 25px;
+}
+.fa-arrow-left:before {
+    content: "\f060";
+    /* margin-right: 50%; */
+    margin-left: -540px;
+    font-size: 30px;
 }
  i{
     font-size: 32px;
@@ -345,6 +350,7 @@ li .fas{
         margin-right: 36%;
         align-items: flex-start;
 }
+
     
     
 
