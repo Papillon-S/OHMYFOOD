@@ -54,8 +54,8 @@ html{
 .loader:after {
     -webkit-animation: spin 1s ease-in-out;
     animation: spin 1s ease-in-out;
-    -webkit-animation-iteration-count: 3;
-    animation-iteration-count: 3;
+    -webkit-animation-iteration-count: 2;
+    animation-iteration-count: 0.5;
     border-radius: 50%;
     border-right: 5px solid transparent;
     border-top: 5px solid #9356dc;
