@@ -9,12 +9,12 @@ body {
 
 header {
     display: flex;
-    justify-content: center;
+    justify-content: centre;
     box-shadow: 0px 5px 5px lightgrey;
     margin-bottom: 5px;
 }
 a {
-    color: black;
+    color: noir;
     text-decoration: none;
 }
 .cartes-img img{
@@ -22,12 +22,11 @@ a {
     width: 100%;
     object-fit: cover;
 }
-.fa-arrow-left:before {
-    content: "\f060";
-    margin-right: 50%;
+.fas fa-arrow-left {
+    content-visibility: « \f060 »;
+    margin-right : 50%;
     margin-left: -500px;
     font-size: 30px;
 }
-
 
 
